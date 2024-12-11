@@ -26,4 +26,10 @@ class ApplicationTests {
 
     }
 
+    @Test
+    void 로또_여러개_구매하기() {
+        System.out.println(new LottoPurchase().purchase(3000));
+        System.out.println(new LottoPurchase().purchase(10000));
+    }
+
 }
